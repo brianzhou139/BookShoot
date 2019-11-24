@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".pagerFragments.ReviewsFragment">\
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_above="@+id/seeAllReviews_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_books_related"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="NotSibling">
+            </androidx.recyclerview.widget.RecyclerView>
+            <RelativeLayout
+                android:id="@+id/rv_Relatedbooks_no_network"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:weightSum="10"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:src="@drawable/request_failed"
+                        android:scaleType="centerCrop"
+                        android:layout_weight="7"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"/>
+
+
+                    <LinearLayout
+                        android:weightSum="10"
+                        android:background="@color/myWhite"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="3"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:gravity="center_horizontal"
+                        android:layout_height="0dp">
+
+                        <TextView
+                            android:id="@+id/rv_books_error_text"
+                            android:textColor="#D12727"
+                            android:textSize="20sp"
+                            android:text="Network Error"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <Button
+                            android:id="@+id/rv_books_refresh"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/myWhite"
+                            android:textColor="#2EC434"
+                            android:text="Refresh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/seeAllReviews_id"
+            android:elevation="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/seeRelated_text"
+                android:layout_marginVertical="4dp"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:textColor="@color/myPinko"
+                android:text="SEE ALL RELATED"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

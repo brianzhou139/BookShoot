@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E91E63</color>
+    <color name="colorPrimaryDark">#AD8989</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="rip">#3047C2</color>
+
+    <color name="lightgrey">#d3d3d3</color>
+    <color name="darkgrey">#A9A9A9</color>
+    <color name="dakergrey">#808080</color>
+    <color name="myWhite">#fff</color>
+
+    <color name="myPinko">#E91E63</color>
+    <color name="sandgrey">#B68989</color>
+    <color name="foty_grey">#AD8989</color>
+
+    <color name="b3_major">#DD84A0</color>
+
+</resources>

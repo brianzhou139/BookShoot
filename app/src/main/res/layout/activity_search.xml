@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchActivity">
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_marginTop="@dimen/margin_search_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="title"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/etAuthor"
+        android:layout_marginTop="@dimen/margin_search_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="author"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/etPublisher"
+        android:layout_marginTop="@dimen/margin_search_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="publisher"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etIsbn"
+        android:layout_marginTop="@dimen/margin_search_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ISBN"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:background="#9C27B0"
+        android:layout_marginTop="@dimen/margin_search_activity"
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/text_button_textsizes"
+        android:text="search" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "811728041944",
+    "firebase_url": "https://bookshoot.firebaseio.com",
+    "project_id": "bookshoot",
+    "storage_bucket": "bookshoot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811728041944:android:0434a33a254309b30164ad",
+        "android_client_info": {
+          "package_name": "com.edufree.bookshoot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811728041944-7bbvgacotucdbk387grkg61s74u7uj88.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edufree.bookshoot",
+            "certificate_hash": "5b232047e8b99daea75eb96b72b79c185a38599a"
+          }
+        },
+        {
+          "client_id": "811728041944-lfs5pg7u8spafkv1i513kucqcvov7hso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxyaFTRuHVQPObrGFbT2aE7w_UUJ8LlI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811728041944-lfs5pg7u8spafkv1i513kucqcvov7hso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

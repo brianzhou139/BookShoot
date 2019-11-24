@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_below="@+id/detail_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@drawable/b3"
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:padding="15dp"
+                    android:layout_above="@+id/sliding_tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_weight="10"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:background="#fff"
+                            android:layout_weight="4"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_margin="3dp"
+                                android:id="@+id/tvImage_detail"
+                                android:src="@drawable/ic_book"
+                                android:scaleType="centerCrop"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_margin="10dp"
+                            android:weightSum="10"
+                            android:orientation="vertical"
+                            android:layout_weight="6"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_weight="7"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp">
+
+                                <TextView
+                                    android:id="@+id/tvTitle_detail"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/myWhite"
+                                    android:textSize="20sp"
+                                    tools:text="Run your app. You should have the same functionality as before, but now in a loader! However, when you rotate the device, the view data is lost. That's because when the activity is created (or recreated), the activity doesn't know"
+                                    android:layout_width="match_parent"
+                                    android:lines="2"
+                                    android:layout_height="wrap_content"/>
+
+                                <TextView
+                                    android:id="@+id/tvAuthors_detail"
+                                    android:layout_marginTop="2dp"
+                                    android:lines="1"
+                                    android:textColor="@color/myWhite"
+                                    tools:text="If the loader exists, initialize it. You only want to reassociate the loader to the activity if a query has already been executed. In the initial state of the app, no data is loaded, so there is no data to preserve"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:weightSum="3"
+                                android:layout_weight="3"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp">
+
+                                <LinearLayout
+                                    android:layout_weight="2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent">
+
+                                    <RatingBar
+                                        android:id="@+id/mm_rating_of_bookDetails"
+                                        style="?android:attr/ratingBarStyleSmall"
+                                        android:theme="@style/RatingBarDetails"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:max="5"
+                                        android:numStars="5"
+                                        android:rating="4">
+                                    </RatingBar>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent">
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <com.google.android.material.tabs.TabLayout
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/sliding_tabs"
+                    app:tabTextColor="#fff"
+                    app:tabSelectedTextColor="@color/myWhite"
+                    app:tabIndicatorColor="@color/myWhite"
+                    app:tabIndicatorHeight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:tabMode="fixed" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </androidx.viewpager.widget.ViewPager>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

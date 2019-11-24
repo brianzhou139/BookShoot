@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#181616</item>
+        <item name="colorControlActivated">#fff</item>
+    </style>
+
+    <style name="RatingBarBooks_item" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#181616</item>
+        <item name="colorControlActivated">#E91E63</item>
+    </style>
+
+
+    <style name="RatingBarDetails" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#181616</item>
+        <item name="colorControlActivated">#fff</item>
+    </style>
+
+    <style name="RatingReviews" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#181616</item>
+        <item name="colorControlActivated">#DD84A0</item>
+    </style>
+
+</resources>

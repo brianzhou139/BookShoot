@@ -73,12 +73,15 @@ With user-friendly and elegant UI, this quick and easy to use app should be a go
 
 ## Screenshots
 ![bookshoot_1](https://user-images.githubusercontent.com/39838697/69763315-18004600-116d-11ea-9413-1a75990a8825.jpg)
+![bookshoot_2](https://user-images.githubusercontent.com/39838697/69763351-32d2ba80-116d-11ea-9397-90bbf4831f60.jpg) 
+![bookshoot_3](https://user-images.githubusercontent.com/39838697/69763367-3f571300-116d-11ea-86f5-8c10c66914f7.jpg)
+![bookshoot_4](https://user-images.githubusercontent.com/39838697/69763551-d1f7b200-116d-11ea-8335-c4b14d7f5a78.jpg)
+![bookshoot_5](https://user-images.githubusercontent.com/39838697/69763569-e340be80-116d-11ea-8948-b960a2df3c82.jpg) 
+![bookshoot_6](https://user-images.githubusercontent.com/39838697/69763585-f3f13480-116d-11ea-98f2-c300525fde49.jpg) 
+![bookshoot_7](https://user-images.githubusercontent.com/39838697/69763608-00758d00-116e-11ea-84f4-9885d023d2f7.jpg)
 
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_3.jpg" width="231" height="500"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_4.jpg" width="231" height="500"/></p>
 
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_5.jpg" width="231" height="500"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_6.jpg" width="231" height="500"/></p>
+
 
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_7.jpg" width="231" height="500"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_8.jpg" width="231" height="500"/></p>

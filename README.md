@@ -72,7 +72,7 @@ With user-friendly and elegant UI, this quick and easy to use app should be a go
 
 
 ## Screenshots
-![bookshoot_1](https://user-images.githubusercontent.com/39838697/69763315-18004600-116d-11ea-9413-1a75990a8825.jpg)![bookshoot_2](https://user-images.githubusercontent.com/39838697/69763351-32d2ba80-116d-11ea-9397-90bbf4831f60.jpg) 
+![bookshoot_1](https://user-images.githubusercontent.com/39838697/69763315-18004600-116d-11ea-9413-1a75990a8825.jpg) :![bookshoot_2](https://user-images.githubusercontent.com/39838697/69763351-32d2ba80-116d-11ea-9397-90bbf4831f60.jpg) 
 ![bookshoot_3](https://user-images.githubusercontent.com/39838697/69763367-3f571300-116d-11ea-86f5-8c10c66914f7.jpg)
 ![bookshoot_4](https://user-images.githubusercontent.com/39838697/69763551-d1f7b200-116d-11ea-8335-c4b14d7f5a78.jpg)
 ![bookshoot_5](https://user-images.githubusercontent.com/39838697/69763569-e340be80-116d-11ea-8948-b960a2df3c82.jpg) 

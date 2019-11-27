@@ -23,7 +23,7 @@ We created a promotional video and uploaded it to Youtube. Please click on the i
 <p align="center">
 <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/Voluny_LD_1.jpg" with="400" height="400" /></p>
 
-“Alone, we can do so little; together, we can do so much” – Helen Keller.
+“E-books are great for instant gratification - you see a review somewhere of a book that interests you, and you can start reading it five minutes later” – Anne Lamott.
 
 ## Screenshots
 

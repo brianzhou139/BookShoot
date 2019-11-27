@@ -128,7 +128,7 @@ public class HomeFragment extends Fragment implements LoaderManager.LoaderCallba
                     BooksAdapter adapter=new BooksAdapter(getActivity(),recommendedList);
                     rvBooks_recyler.setAdapter(adapter);
                 }else{
-                    makeQueryToGoogleApi(false,false,"algorithms");
+                    makeQueryToGoogleApi(false,false,"tolkien");
                 }
             }
         }else{

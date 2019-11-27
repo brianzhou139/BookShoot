@@ -74,7 +74,7 @@ With user-friendly and elegant UI, this quick and easy to use app should be a go
 ## Screenshots
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_3.jpg" width="231" height="500"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_4.jpg" width="231" height="500"/></p>
+<img src="https://user-images.githubusercontent.com/39838697/69763315-18004600-116d-11ea-9413-1a75990a8825.jpg" width="231" height="500"/> <img src="https://user-images.githubusercontent.com/39838697/69763351-32d2ba80-116d-11ea-9397-90bbf4831f60.jpg" width="231" height="500"/></p>
 
 ![bookshoot_1](https://user-images.githubusercontent.com/39838697/69763315-18004600-116d-11ea-9413-1a75990a8825.jpg) : ![bookshoot_2](https://user-images.githubusercontent.com/39838697/69763351-32d2ba80-116d-11ea-9397-90bbf4831f60.jpg) 
 ![bookshoot_3](https://user-images.githubusercontent.com/39838697/69763367-3f571300-116d-11ea-86f5-8c10c66914f7.jpg)

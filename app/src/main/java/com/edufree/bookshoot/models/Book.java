@@ -13,6 +13,7 @@ public class Book implements Parcelable {
     private String description;
     private String thumbnail;
     private String averageRating;
+    private String category;
 
 
     public Book(){}
@@ -37,6 +38,7 @@ public class Book implements Parcelable {
     }
 
     protected Book(Parcel in) {
+        isbn = in.readString();
         id = in.readString();
         title = in.readString();
         subtitle = in.readString();
@@ -46,7 +48,7 @@ public class Book implements Parcelable {
         description = in.readString();
         thumbnail = in.readString();
         averageRating = in.readString();
-        isbn = in.readString();
+        category = in.readString();
     }
 
     public static final Creator<Book> CREATOR = new Creator<Book>() {
@@ -60,6 +62,14 @@ public class Book implements Parcelable {
             return new Book[size];
         }
     };
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
 
     public String[] getAuthors() {
         return authors;
@@ -147,9 +157,9 @@ public class Book implements Parcelable {
         return 0;
     }
 
-
     @Override
     public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeString(isbn);
         parcel.writeString(id);
         parcel.writeString(title);
         parcel.writeString(subtitle);
@@ -159,8 +169,6 @@ public class Book implements Parcelable {
         parcel.writeString(description);
         parcel.writeString(thumbnail);
         parcel.writeString(averageRating);
-        parcel.writeString(isbn);
+        parcel.writeString(category);
     }
-
-
 }

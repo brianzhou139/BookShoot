@@ -9,6 +9,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.edufree.bookshoot.models.Book;
 import com.edufree.bookshoot.models.Comment;
+import com.edufree.bookshoot.models.Stats;
 import com.edufree.bookshoot.pagerFragments.DetailsFragment;
 import com.edufree.bookshoot.pagerFragments.RelatedFragment;
 import com.edufree.bookshoot.pagerFragments.ReviewsFragment;
@@ -23,12 +24,14 @@ public class bookDetailFragmentPager extends FragmentPagerAdapter {
     private Context mContext;
     private Book book;
     private boolean hasChildCommentNodes;
+    private Stats bookStat;
 
-    public bookDetailFragmentPager(@NonNull FragmentManager fm, Context context, Book book, boolean hasChildCommentNodes) {
+    public bookDetailFragmentPager(@NonNull FragmentManager fm, Context context, Book book, boolean hasChildCommentNodes, Stats bookStat) {
         super(fm);
         mContext = context;
         this.book = book;
         this.hasChildCommentNodes = hasChildCommentNodes;
+        this.bookStat = bookStat;
     }
 
     @Override
@@ -36,6 +39,7 @@ public class bookDetailFragmentPager extends FragmentPagerAdapter {
         // Supply index input as an argument.
         Bundle args = new Bundle();
         args.putParcelable(pConstants.BOOK_FRAGMENT_KEY,book);
+        args.putParcelable(pConstants.BOOK_STATS_KEY,bookStat);
 
         if (position == 0) {
             DetailsFragment details = new DetailsFragment();

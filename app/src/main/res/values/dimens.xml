@@ -9,4 +9,5 @@
     <dimen name="margin_search_activity">24dp</dimen>
     <dimen name="text_button_textsizes">18sp</dimen>
     <dimen name="sp_20">20sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 </resources>

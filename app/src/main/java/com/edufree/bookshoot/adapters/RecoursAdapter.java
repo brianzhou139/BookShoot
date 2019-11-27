@@ -1,5 +1,4 @@
 package com.edufree.bookshoot.adapters;
-
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -22,7 +21,6 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 
 public class RecoursAdapter extends RecyclerView.Adapter<RecoursAdapter.BookViewHolder> {
-
     private Context mContext;
     private ArrayList<Book> books;
 
@@ -82,23 +80,32 @@ public class RecoursAdapter extends RecyclerView.Adapter<RecoursAdapter.BookView
         }
 
         public void Bind(Book book){
-            Picasso.get().load(book.getThumbnail()).placeholder(R.drawable.ic_book).into(bv);
+
+            if(!book.getThumbnail().isEmpty()){
+                Picasso.get().load(book.getThumbnail()).placeholder(R.drawable.ic_book).into(bv);
+            }else{
+                bv.setImageResource(R.drawable.ic_book);
+            }
 
             bookTitle.setText(book.getTitle());
             //Picasso.get().load(book.getThumbnail()).placeholder(R.drawable.ic_book).into(bookImg);
-            String []auths=book.getAuthors();
-            int auth_size=auths.length;
 
-            if(auth_size==1){
-                bookAuthors.setText(auths[0]);
-            }else if(auth_size==2){
-                bookAuthors.setText(auths[0]+", "+auths[1]);
-            }else if(auth_size==3){
-                bookAuthors.setText(auths[0]+", "+auths[1] + ", "+auths[2]);
-            }else{
-                if(auth_size>0 && auth_size>3){
+            if(book.getAuthors()!=null){
+                String []auths=book.getAuthors();
+                int auth_size=auths.length;
+
+                if(auth_size==1){
                     bookAuthors.setText(auths[0]);
+                }else if(auth_size==2){
+                    bookAuthors.setText(auths[0]+", "+auths[1]);
+                }else if(auth_size==3){
+                    bookAuthors.setText(auths[0]+", "+auths[1] + ", "+auths[2]);
+                }else{
+                    if(auth_size>0 && auth_size>3){
+                        bookAuthors.setText(auths[0]);
+                    }
                 }
+
             }
 
             //tvTitle.setText(book.getTitle());
@@ -108,6 +115,7 @@ public class RecoursAdapter extends RecyclerView.Adapter<RecoursAdapter.BookView
             //tvDate.setText(book.getPublishedDate());
             ///inflate image here
             //Picasso.get().load(book.getThumbnail()).placeholder(R.drawable.ic_book).into(tvImage);
+
         }
 
     }//end of BookView

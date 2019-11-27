@@ -133,6 +133,7 @@
                     android:layout_height="match_parent"/>
 
                 <TextView
+                    android:id="@+id/showMore_books"
                     android:textAlignment="textEnd"
                     android:textColor="@color/rip"
                     android:textStyle="bold"
@@ -176,6 +177,7 @@
                     android:layout_height="match_parent"/>
 
                 <TextView
+                    android:id="@+id/showMore_authors_id"
                     android:textAlignment="textEnd"
                     android:textColor="@color/rip"
                     android:textStyle="bold"

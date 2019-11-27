@@ -48,4 +48,10 @@ dependencies {
     //Android ImageViews animated by Ken Burns Effect
     implementation 'com.flaviofaria:kenburnsview:1.0.7'
 
+    ///image Croperr
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
+
+    //google vision
+    implementation 'com.google.android.gms:play-services-vision:16.2.0'
+
 }

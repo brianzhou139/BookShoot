@@ -16,4 +16,9 @@
 
     <color name="b3_major">#DD84A0</color>
 
+    <color name="myStartColor">#1B86D8</color>
+    <color name="myEndColor">#D81B60</color>
+    <color name="buttStartColour">#39DCB6</color>
+    <color name="buttEndColour">#383D94</color>
+
 </resources>

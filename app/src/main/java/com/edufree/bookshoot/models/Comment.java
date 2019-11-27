@@ -2,11 +2,18 @@ package com.edufree.bookshoot.models;
 
 import android.os.Parcel;
 import android.os.Parcelable;
+//https://firebasestorage.googleapis.com/v0/b/bookshoot.appspot.com/o/comments%2Fdefault_image.png?alt=media&token=e47d87d1-4ab7-489d-8d32-4f327f77c746
+//https://firebasestorage.googleapis.com/v0/b/bookshoot.appspot.com/o/comments%2Fdefault_image.png?alt=media&token=e47d87d1-4ab7-489d-8d32-4f327f77c746
 
 public class Comment implements Parcelable {
     private String email,username,thumbnail,content,rating,type,id;
 
     public Comment(){};
+
+    public Comment(boolean t){
+        this.type="10";
+        this.thumbnail="https://firebasestorage.googleapis.com/v0/b/bookshoot.appspot.com/o/comments%2Fdefault_image.png?alt=media&token=e47d87d1-4ab7-489d-8d32-4f327f77c746";
+    }
 
     public Comment(String email, String username, String thumbnail, String content, String rating, String type) {
         this.email = email;

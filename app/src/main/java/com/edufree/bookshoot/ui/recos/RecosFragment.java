@@ -1,8 +1,11 @@
 package com.edufree.bookshoot.ui.recos;
 import android.app.AlertDialog;
+import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -26,6 +29,7 @@ import com.edufree.bookshoot.Loaders.googleApiBookLoader;
 import com.edufree.bookshoot.R;
 import com.edufree.bookshoot.adapters.RecoursAdapter;
 import com.edufree.bookshoot.adapters.authorAdapter;
+import com.edufree.bookshoot.database.BookContract;
 import com.edufree.bookshoot.models.Author;
 import com.edufree.bookshoot.models.Book;
 import com.edufree.bookshoot.models.Search;
@@ -42,10 +46,9 @@ import java.util.ArrayList;
 import dmax.dialog.SpotsDialog;
 
 public class RecosFragment extends Fragment implements LoaderManager.LoaderCallbacks<String>{
-
     private static final int googleBookLoader_id=2;
     private static final String TAG="RecosFragment";
-
+    private ArrayList<Book> mRecommendedBooks=new ArrayList<>();
     private ArrayList<Author> mAuthorsList=new ArrayList<>();
 
     private Search userSearch=null;
@@ -56,9 +59,10 @@ public class RecosFragment extends Fragment implements LoaderManager.LoaderCallb
     private TextView category1_num,category2_num,category3_num;
     private LinearLayout nType1, nType2, nType3;
 
-
     private LinearLayout categories_linear, author_linear,reading_linear;
     private LinearLayout forYou_selections,categories_selections,status_selections;
+
+    private TextView readMore_books,readMoreAuthors;
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mRoot = inflater.inflate(R.layout.fragment_recos, container, false);
@@ -73,11 +77,27 @@ public class RecosFragment extends Fragment implements LoaderManager.LoaderCallb
 
         dialog_recos=new SpotsDialog.Builder().setContext(getActivity()).build();
 
-        if(isInternetConnected()){
-            makeQueryToGoogleApi(false,"cooking");
-            readAuthors();
-        }else{
-            noNetworkError();
+        readMore_books=(TextView)mRoot.findViewById(R.id.showMore_books);
+        readMoreAuthors=(TextView)mRoot.findViewById(R.id.showMore_authors_id);
+
+
+        //getBooks from the sql_database
+        mRecommendedBooks=getRecommendedBooks();
+
+        if(mRecommendedBooks.size()>=1){
+            RecoursAdapter adapter=new RecoursAdapter(getActivity(),mRecommendedBooks);
+            rvBooks_recyler_recos.setAdapter(adapter);
+            setBookScroll_1(adapter);
+            if(isInternetConnected()){
+                readAuthors();
+            }
+        }else {
+            if(isInternetConnected()){
+                makeQueryToGoogleApi(false,"programming");
+                readAuthors();
+            }else{
+                noNetworkError();
+            }
         }
 
         if(getActivity().getSupportLoaderManager().getLoader(googleBookLoader_id)!=null){
@@ -85,6 +105,35 @@ public class RecosFragment extends Fragment implements LoaderManager.LoaderCallb
         }
 
         return mRoot;
+
+    }
+
+    private void setBookScroll_1(final RecoursAdapter adapter) {
+        readMore_books.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                rvBooks_recyler_recos.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        rvBooks_recyler_recos.smoothScrollToPosition(adapter.getItemCount()- 1);
+                    }
+                });
+            }
+        });
+    }
+
+    private void setAuthorScroll_1(final authorAdapter adapter) {
+        readMoreAuthors.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                rvBooks_recycler_recos_authors.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        rvBooks_recycler_recos_authors.smoothScrollToPosition(adapter.getItemCount()- 1);
+                    }
+                });
+            }
+        });
     }
 
 
@@ -135,11 +184,13 @@ public class RecosFragment extends Fragment implements LoaderManager.LoaderCallb
                 int num=books.size();
                 RecoursAdapter adapter=new RecoursAdapter(getActivity(),books);
                 rvBooks_recyler_recos.setAdapter(adapter);
+                setBookScroll_1(adapter);
                 Log.d(TAG,"************** : "+num);
             }
 
         }//end of LOADER 1/**********************************************************************/
     }
+
 
     @Override
     public void onLoaderReset(@NonNull Loader<String> loader) {
@@ -164,7 +215,6 @@ public class RecosFragment extends Fragment implements LoaderManager.LoaderCallb
         categories_linear=(LinearLayout)mRoot.findViewById(R.id.linear_categories);
         author_linear =(LinearLayout)mRoot.findViewById(R.id.linear_authors);
         reading_linear=(LinearLayout)mRoot.findViewById(R.id.linear_readingStats);
-
 
         ///selctions
         forYou_selections=(LinearLayout)mRoot.findViewById(R.id.foryou_id);
@@ -290,6 +340,7 @@ public class RecosFragment extends Fragment implements LoaderManager.LoaderCallb
                 afterLoadingView();
                 authorAdapter adapter=new authorAdapter(getActivity(),mAuthorsList);
                 rvBooks_recycler_recos_authors.setAdapter(adapter);
+                setAuthorScroll_1(adapter);
             }
 
             @Override
@@ -300,5 +351,104 @@ public class RecosFragment extends Fragment implements LoaderManager.LoaderCallb
 
     }//end of readUsers...
 
+    private ArrayList<Book> getRecommendedBooks(){
+
+        ArrayList<Book> likedBooks=new ArrayList<>();
+
+        String[] projection = {
+                BookContract.SavedBooksEntry._ID,
+                BookContract.SavedBooksEntry.COLUMN_BOOK_ID,
+                BookContract.SavedBooksEntry.COLUMN_BOOK_ISBN,
+                BookContract.SavedBooksEntry.COLUMN_BOOK_TITLE,
+                BookContract.SavedBooksEntry.COLUMN_BOOK_SUBTITLE,
+                BookContract.SavedBooksEntry.COLUMN_BOOK_PUBLISHER,
+                BookContract.SavedBooksEntry.COLUMN_BOOK_PUBLISHED_DATE,
+                BookContract.SavedBooksEntry.COLUMN_BOOK_DESCRIPTION,
+                BookContract.SavedBooksEntry.COLUMN_BOOK_AUTHOR,
+                BookContract.SavedBooksEntry.COLUMN_BOOK_AUTHOR2,
+                BookContract.SavedBooksEntry.COLUMN_BOOK_THUMBNAIL,
+                BookContract.SavedBooksEntry.COLUMN_BOOK_AVERAGE_RATING
+        };
+
+        // Filter results. Make these null if you want to query all rows
+        String selection = null;
+        String[] selectionArgs = null;
+        String sortOrder = null;	// Ascending or Descending ...
+
+        Uri uri= BookContract.RecommendedBooksEntry.CONTENT_URI;
+        Cursor cursor=getActivity().getContentResolver().query(uri,projection,selection,selectionArgs,sortOrder);
+
+        Log.d(TAG, "From Content Provider >>>> CURSOR OBJECT YEAH " );
+
+        if (cursor != null) {
+            int indexID=cursor.getColumnIndex(BookContract.RecommendedBooksEntry._ID);
+            int index_Book_id=cursor.getColumnIndex(BookContract.RecommendedBooksEntry.COLUMN_BOOK_ID);
+            int index_Book_isbn=cursor.getColumnIndex(BookContract.RecommendedBooksEntry.COLUMN_BOOK_ISBN);
+            int index_Book_title=cursor.getColumnIndex(BookContract.RecommendedBooksEntry.COLUMN_BOOK_TITLE);
+            int index_Book_subtitle=cursor.getColumnIndex(BookContract.RecommendedBooksEntry.COLUMN_BOOK_SUBTITLE);
+            int index_Book_publisher=cursor.getColumnIndex(BookContract.RecommendedBooksEntry.COLUMN_BOOK_PUBLISHER);
+            int index_Book_publishedDate=cursor.getColumnIndex(BookContract.RecommendedBooksEntry.COLUMN_BOOK_PUBLISHED_DATE);
+            int index_Book_description=cursor.getColumnIndex(BookContract.RecommendedBooksEntry.COLUMN_BOOK_DESCRIPTION);
+            int index_Book_thumbnail=cursor.getColumnIndex(BookContract.RecommendedBooksEntry.COLUMN_BOOK_THUMBNAIL);
+            int index_Book_averageRating=cursor.getColumnIndex(BookContract.RecommendedBooksEntry.COLUMN_BOOK_AVERAGE_RATING);
+            int index_Book_author=cursor.getColumnIndex(BookContract.RecommendedBooksEntry.COLUMN_BOOK_AUTHOR);
+            int index_Book_author2=cursor.getColumnIndex(BookContract.RecommendedBooksEntry.COLUMN_BOOK_AUTHOR2);
+
+            while (cursor.moveToNext()) {	// Cursor iterates through all rows
+                //String cont=cursor.getString(indexCountry);
+                //Log.d("TITO","******* cont : "+ cont);
+                String book_id=cursor.getString(index_Book_id);
+                String book_isbn=cursor.getString(index_Book_isbn);
+                String book_title=cursor.getString(index_Book_title);
+                String book_subtitle=cursor.getString(index_Book_subtitle);
+                String book_publisher=cursor.getString(index_Book_publisher);
+                String book_publishedDate=cursor.getString(index_Book_publishedDate);
+                String book_description=cursor.getString(index_Book_description);
+                String book_thumbnail=cursor.getString(index_Book_thumbnail);
+                String book_averageRating=cursor.getString(index_Book_averageRating);
+
+                String book_author=cursor.getString(index_Book_author);
+                String book_author2=cursor.getString(index_Book_author2);
+
+                String[] authors = new String[2];
+                if(book_author!=null && book_author2!=null){
+                    authors= new String[]{book_author, book_author2};
+                }else if(book_author!=null && book_author2==null){
+                    authors= new String[]{book_author,""};
+                }else if(book_author==null && book_author2!=null){
+                    authors= new String[]{"",book_author2};
+                }else{
+                    authors= new String[]{"",""};
+                }
+
+                Book mNewBook=new Book();
+                mNewBook.setId(book_id);
+                mNewBook.setIsbn(book_isbn);
+                mNewBook.setAuthors(authors);
+                mNewBook.setTitle(book_title);
+                mNewBook.setSubtitle(book_subtitle);
+                mNewBook.setPublisher(book_publisher);
+                mNewBook.setPublishedDate(book_publishedDate);
+                mNewBook.setDescription(book_description);
+                mNewBook.setThumbnail(book_thumbnail);
+                mNewBook.setAverageRating(book_averageRating);
+
+                Log.i(TAG, "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@_from_Recommended_Books");
+                Log.i(TAG,"Recommended_books");
+                Log.i(TAG, "clicked_id : " +mNewBook.getId());
+                Log.i(TAG, "clicked_isbn : " +mNewBook.getIsbn());
+                Log.i(TAG, "clicked_title : " +mNewBook.getTitle());
+                Log.i(TAG, "clicked_publisher : " +mNewBook.getPublisher());
+                Log.i(TAG, "clicked_publisher_date : " +mNewBook.getPublishedDate());
+                Log.i(TAG, "clicked_description : " +mNewBook.getDescription());
+                Log.i(TAG, "clicked_thumbnail : " +mNewBook.getThumbnail());
+                Log.i(TAG, "clicked_averageRating : " +mNewBook.getAverageRating());
+                likedBooks.add(mNewBook);
+            }
+            cursor.close();
+            Log.i(TAG, "Im DOne yeah__Recommended_Books");
+        }
+        return likedBooks;
+    }
 
 }

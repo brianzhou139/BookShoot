@@ -39,6 +39,7 @@ import com.edufree.bookshoot.utils.pConstants;
 
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 import dmax.dialog.SpotsDialog;
 
@@ -67,7 +68,7 @@ public class RelatedFragment extends Fragment implements LoaderManager.LoaderCal
         //check for internet connection yeah
         if(isInternetConnected()){
             thereIsNetwork();
-            makeQueryToGoogleApi(false,false,"algorithms");
+            makeQueryToGoogleApi(false,false,currentBook.getTitle());
         }else{
             noNetworkError();
         }
@@ -121,9 +122,19 @@ public class RelatedFragment extends Fragment implements LoaderManager.LoaderCal
                 rvRelatedBooks_recyler.setVisibility(View.VISIBLE);
                 //tvError.setVisibility(View.INVISIBLE);
                 ArrayList<Book> books=networkUtils.getBooksFromJson(data);
-                int num=books.size();
-                BooksAdapter adapter=new BooksAdapter(getActivity(),books);
+                ArrayList<Book> newBooks=books;
+                int index = 0;
+
+                for(Book book:books){
+                    if(book.getId().matches(currentBook.getId())){
+                        index=books.indexOf(book);
+                    }
+                }
+
+                newBooks.remove(index);
+                BooksAdapter adapter=new BooksAdapter(getActivity(),newBooks);
                 rvRelatedBooks_recyler.setAdapter(adapter);
+
             }
 
         }//end of LOADER 1/**********************************************************************/
@@ -176,14 +187,6 @@ public class RelatedFragment extends Fragment implements LoaderManager.LoaderCal
         rvRelatedBooks_recyler=(RecyclerView)mRoot.findViewById(R.id.rv_books_related);
         rvRelatedBooks_recyler.setLayoutManager(new LinearLayoutManager(getActivity()));
         dialog=new SpotsDialog.Builder().setContext(getActivity()).build();
-        seeAllRelated=(TextView)mRoot.findViewById(R.id.seeRelated_text);
-
-        seeAllRelated.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getActivity(),"See All related",Toast.LENGTH_SHORT).show();
-            }
-        });
 
         btnRefresh.setOnClickListener(new View.OnClickListener() {
             @Override

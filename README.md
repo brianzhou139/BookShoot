@@ -25,6 +25,8 @@ We created a promotional video and uploaded it to Youtube. Please click on the i
 
 “E-books are great for instant gratification - you see a review somewhere of a book that interests you, and you can start reading it five minutes later” – Anne Lamott.
 
+“If you only read the books that everyone else is reading, you can only think what everyone else is thinking.” ― Haruki Murakami
+
 ## Screenshots
 
 <img   hspace="20" src="https://user-images.githubusercontent.com/39838697/69763315-18004600-116d-11ea-9413-1a75990a8825.jpg" width="400" height="600"/><img src="https://user-images.githubusercontent.com/39838697/69763351-32d2ba80-116d-11ea-9397-90bbf4831f60.jpg" width="400" height="600"/>

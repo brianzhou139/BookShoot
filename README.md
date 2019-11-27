@@ -3,7 +3,7 @@
 
 ![bk_main](https://user-images.githubusercontent.com/39838697/69744633-d78ad300-1140-11ea-881a-a376ccda3a0f.png)
 
-BookShoot is a book review and recommendation app.Users can take a picture of a book of interests in a store and then instantly read feedback on it or recommendations for similar book from Goodreads, Amazon, and other similar platforms
+BookShoot is a book review and recommendation app.Users can take a picture of a book of interests in a store/library e.t.c  and then instantly read feedback on it or recommendations for similar book from Goodreads, Amazon, and other similar platforms
 
 ## The Bay Area Team
 We consist of 2 team members that make this wonderful app happen: Uyen Vicky Vo as the UIUX designer and [Marton Zeisler](https://github.com/Marton-Zeisler) as the programmer. We came up with the idea together and have been working hard on Voluny starting from scratch. We use Photoshop, Illustrator, and Sketch for UIUX designing and Xcode/Swift for developing. In addition, Firebase, Google APIs (Geocoding & Places API) was being used for the back-end development. 

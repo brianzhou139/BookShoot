@@ -21,8 +21,6 @@ We created a promotional video and uploaded it to Youtube. Please click on the i
 
 ## Description
 <p align="center">
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/Voluny_LD_1.jpg" with="400" height="400" /></p>
-
 “E-books are great for instant gratification - you see a review somewhere of a book that interests you, and you can start reading it five minutes later” – Anne Lamott.
 
 “If you only read the books that everyone else is reading, you can only think what everyone else is thinking.” ― Haruki Murakami
@@ -38,7 +36,7 @@ We created a promotional video and uploaded it to Youtube. Please click on the i
 ![bookshoot_7](https://user-images.githubusercontent.com/39838697/69763608-00758d00-116e-11ea-84f4-9885d023d2f7.jpg)
 
 ## Disclaimer
-Voluny is a product designed and developed by Marton Zeisler and Uyen Vicky Vo.
+BookShoot is a product designed and developed by Brian Zhou.
 All photos used in the app or promotional collaterals are open-source and royalty free from Unsplash.com.
 
 ## License

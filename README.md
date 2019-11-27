@@ -14,16 +14,6 @@ There are two ways to test Voluny:
 - Download the .apk file using this link: [Download BookShoot.apk](https://drive.google.com/open?id=1l8Yi_ilW_v-zP7Q2dlWiMGTUhOlx27lC)
 
 - This repository contains an executable .apk file in the apk folder. In order to install and run this file you need to have an Android Device.Just open the folder and click the apk on an android device
-
-## User accounts for testing
-The following volunteer and recruiter accounts have been created for testing purposes. Please use them to test Voluny.
- - Password for all accounts: 123456
-
- - Volunteer accounts: user1@user1.com, user2@user2.com, user3@user.com, user4@user4.com, user5@user5.com, user6@user6.com, user7@user7.com, user8@user8.com, user9@user9.com user10@user10.com
- 
- - Recruiter accounts for New Delhi: ind1@ind1.com, ind2@ind2.com, ind3@ind3.com
- - Recruiter accounts for Budapest: bp1@bp1.com, bp2@bp2.com, bp3@bp3.com, bp4@bp4.com, bp6@bp6.com
- - Recruiter accounts for San Francisco: sf1@sf1.com, sf2@sf2.com, sf4@sf4.com, sf5@sf5.com
  
 ## Promotional Video
 We created a promotional video and uploaded it to Youtube. Please click on the image to watch our video:[![Watch our video](https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/VolunyYouTube.jpg)](https://www.youtube.com/watch?v=Zy44ONV4ASs)
@@ -82,8 +72,7 @@ With user-friendly and elegant UI, this quick and easy to use app should be a go
 
 
 ## Screenshots
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_1.jpg" width="231" height="500"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_2.jpg" width="231" height="500"/></p>
+![bookshoot_1](https://user-images.githubusercontent.com/39838697/69763315-18004600-116d-11ea-9413-1a75990a8825.jpg)
 
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_3.jpg" width="231" height="500"/> <img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Screenshots/Voluny_Screenshot_1125x2436_4.jpg" width="231" height="500"/></p>

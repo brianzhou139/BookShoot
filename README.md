@@ -11,7 +11,7 @@ It consists of 1 team member : Brian Zhou as the UIUX designer and coder (https:
 ## Installation Guidelines
 There are two ways to test Voluny:
 
--Download the .apk file using this link: [Download BookShoot.ipa](https://drive.google.com/uc?export=download&id=1zHikbY5PuwYGUCoc4V14TX5YO0BnkTfu)
+- Download the .apk file using this link: [Download BookShoot.ipa](https://drive.google.com/uc?export=download&id=1zHikbY5PuwYGUCoc4V14TX5YO0BnkTfu)
 
 - This repository contains an executable .apk file in the apk folder. In order to install and run this file you need to have an Android Device.Just open the folder and click the apk on an android device
 

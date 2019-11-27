@@ -10,10 +10,11 @@ It consists of 1 team member : Brian Zhou as the UIUX designer and coder (https:
 
 ## Installation Guidelines
 There are two ways to test Voluny:
- - This repository contains an executable .ipa file in the ipa folder. In order to install and run this file you need to have a jailbroken iPhone. Download the .ipa file using this link: [Download Voluny.ipa](https://drive.google.com/uc?export=download&id=1zHikbY5PuwYGUCoc4V14TX5YO0BnkTfu)
 
- - Another way to install Voluny is by inviting me to an Apple developer account and allowing me to upload the application to Testflight. TestFlight is Apple's online service for testing mobile applications but it is only possible with paid Apple developer accounts. An Apple developer account costs 99 dollars per year.
- 
+-Download the .apk file using this link: [Download BookShoot.ipa](https://drive.google.com/uc?export=download&id=1zHikbY5PuwYGUCoc4V14TX5YO0BnkTfu)
+
+- This repository contains an executable .apk file in the apk folder. In order to install and run this file you need to have an Android Device.Just open the folder and click the apk on an android device
+
 ## User accounts for testing
 The following volunteer and recruiter accounts have been created for testing purposes. Please use them to test Voluny.
  - Password for all accounts: 123456

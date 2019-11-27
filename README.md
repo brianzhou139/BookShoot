@@ -1,6 +1,8 @@
 ## BookShoot- Android App for the 2019 IEEEmadC Mobile Application Development Contest
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/Logos/Feature-Graphic-Default.jpg" with="600" height="400" /></p>
+<img src="![bk_main](https://user-images.githubusercontent.com/39838697/69744633-d78ad300-1140-11ea-881a-a376ccda3a0f.png)
+" with="600" height="400" /></p>
+
 Voluny is a quick, easy and simple volunteering app that is tailored specifically for volunteers who love to help out their community as well as to recruiters, who are seeking for volunteers for their organizations.
 
 ## The Bay Area Team

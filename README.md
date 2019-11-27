@@ -9,15 +9,15 @@ BookShoot is a book review and recommendation app.Users can take a picture of a 
 It consists of 1 team member : Brian Zhou as the UIUX designer and coder (https://github.com/brianzhou139).I came up with the idea after facing the same problem each of not knowing which book to purchase/read and what do others really say about this book.I started from scratch and used Google books,good reads, new york times and APIS for data collection.
 
 ## Installation Guidelines
-There are two ways to test Voluny:
+There are two ways to test BookShoot:
 
-- Download the .apk file using this link: [Download BookShoot.apk](https://drive.google.com/open?id=1l8Yi_ilW_v-zP7Q2dlWiMGTUhOlx27lC)
+- Download the .apk file using this link: [Download](https://drive.google.com/open?id=1l8Yi_ilW_v-zP7Q2dlWiMGTUhOlx27lC)
 
 - This repository contains an executable .apk file in the apk folder. In order to install and run this file you need to have an Android Device.Just open the folder and click the apk on an android device
  
 ## Promotional Video
-We created a promotional video and uploaded it to Youtube. Please click on the image to watch our video:[![Watch our video](https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/VolunyYouTube.jpg)](https://www.youtube.com/watch?v=Zy44ONV4ASs)
 
+We created a promotional video and uploaded it to Youtube. Please click on the image to watch our video:[![Watch our video](https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/VolunyYouTube.jpg)](https://www.youtube.com/watch?v=Zy44ONV4ASs)
 
 ## Description
 
@@ -42,7 +42,7 @@ All photos used in the app or promotional collaterals are open-source and royalt
 ## License
 MIT License
 
-Copyright (c) 2018 Marton Zeisler
+Copyright (c) 2019 Brian Zhou
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

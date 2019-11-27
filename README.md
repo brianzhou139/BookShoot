@@ -25,52 +25,6 @@ We created a promotional video and uploaded it to Youtube. Please click on the i
 
 “Alone, we can do so little; together, we can do so much” – Helen Keller.
 
-We believe in the power of people. You and I, as individuals, do great things. But did you know that we do greater things when we come together. If I ask anyone, “Do you like helping people?”, the morality answer is always, “Yes”. Of course, everyone wants to help everyone else. Do you have the time? Yes. Do you have the will? Yes. Do you care about your community? Yes. But really, do you have the patience to sit for hours on your computer? To search on countless websites for volunteer experiences? To apply through a long chain of emails only to find out that the time doesn’t work for you? Yeah, we don’t think so. 
-
-That’s where Voluny comes in and solves this problem.
-
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/Voluny_LD_2.jpg" with="400" height="500" /></p>
-
-So… what’s our goal? Our goal is simple, just like how we want our app to be, because let’s be real, finding volunteer experiences should not be painful or stressful or take up your whole day. We don’t believe in making users sign up or commit to anything until they find what they are looking for. We want the user experience to be seamless. We want them to focus on just one thing that matters: looking for the volunteer opportunities they love. 
-
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/Voluny_LD_3.jpg" with="400" height="500" /></p>
-
-As the volunteer, the decision is all yours. Apply to 1, 2 or 10 experiences you want. No one is stopping you. We can’t. You can join, search, and apply for volunteer experiences within a few minutes. In addition, we created a variety of categories including Children, Pets, Homeless, Education and more. It is important that we let you have the flexibility to choose your cause and the volunteer experiences you wish to apply–giving total control to you. 
-
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/Voluny_LD_4.jpg" with="400" height="500" /></p>
-
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/Voluny_LD_5.jpg" with="400" height="500" /></p>
-
-The other goal of Voluny is to make the user experience seamless, without any confusion. We care about your experience, that’s why it’s important for us to design a seamless UX management tool that only shows you what you want to know. After you apply, you can easily keep track of your applications to see if you are a good match to what the organization is looking for, receive all the information you need to start without having to contact back and forth with the organizations. 
-
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/Voluny_LD_6.jpg" with="400" height="500" /></p>
-
-To ensure that everyone has the best experience, we also created a rating system to help you express yourself. The ratings will be seen by everyone and will help future volunteers to understand more about the experience they had with the organization and easily decide where they want to volunteer next. 
-
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/Voluny_LD_7.jpg" with="400" height="500" /></p>
-
-We understand that as a recruiter, you already have enough things to worry about. With our app as the recruiter, who represents the organization, you can post new volunteer experiences within minutes without complicated hassles. The recruiter can manage current or past listings through the recruiter portal.
-
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/Voluny_LD_8.jpg" with="400" height="500" /></p>
-
-Our intention is to make things quick and simple. It is important that making decision should not take away your precious time. That’s why we make it simple for you to decide if the candidate is a good match by simply clicking “Accept” or “Decline” after you preview their information. With our easy managing tool, you will be able to edit, delete or modify your listing, as well as having an overview of your volunteer experience. 
-
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/Voluny_LD_9.jpg" with="400" height="500" /></p>
-
-<p align="center"> 
-<img src="https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/Voluny_LD_10.jpg" with="400" height="500" /></p>
-
-With user-friendly and elegant UI, this quick and easy to use app should be a go-to Volunteer app for everyone. Volunteering made simple, that’s our goal. Let’s volunteer together!
-
-
 ## Screenshots
 
 <img   hspace="20" src="https://user-images.githubusercontent.com/39838697/69763315-18004600-116d-11ea-9413-1a75990a8825.jpg" width="400" height="600"/><img src="https://user-images.githubusercontent.com/39838697/69763351-32d2ba80-116d-11ea-9397-90bbf4831f60.jpg" width="400" height="600"/>

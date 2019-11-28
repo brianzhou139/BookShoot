@@ -36,7 +36,7 @@ Users can get book details  by following ways  :
 
 <img   hspace="20" src="https://user-images.githubusercontent.com/39838697/69763315-18004600-116d-11ea-9413-1a75990a8825.jpg" width="400" height="600"/><img src="https://user-images.githubusercontent.com/39838697/69763351-32d2ba80-116d-11ea-9397-90bbf4831f60.jpg" width="400" height="600"/>
 
-<img   hspace="20" src="https://user-images.githubusercontent.com/39838697/69763367-3f571300-116d-11ea-86f5-8c10c66914f7.jpg" width="400" height="600"/><img src="https://user-images.githubusercontent.com/39838697/69763551-d1f7b200-116d-11ea-8335-c4b14d7f5a78.jpg" width="400" height="600"/>
+<img   hspace="20" src="https://user-images.githubusercontent.com/39838697/69763367-3f571300-116d-11ea-86f5-8c10c66914f7.jpg" width="400" height="600"/><img src="https://user-images.githubusercontent.com/39838697/69774065-15194b80-1195-11ea-9320-9f64fc97fa01.jpg" width="400" height="600"/>
 
 <img   hspace="20" src="https://user-images.githubusercontent.com/39838697/69763569-e340be80-116d-11ea-8948-b960a2df3c82.jpg" width="400" height="600"/><img src="https://user-images.githubusercontent.com/39838697/69763585-f3f13480-116d-11ea-98f2-c300525fde49.jpg" width="400" height="600"/>
 

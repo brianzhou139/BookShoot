@@ -82,12 +82,4 @@ SOFTWARE.
 | ------------- | ----------- | ------------- | ------------------------------------- | ------------- | ------------- |
 |[.apk](https://drive.google.com/open?id=1s3FiyAtYhkJwC0REF5UBfiFxPpoPedeA)| [BookShoot](https://github.com/brianzhou139/BookShoot) |edufree|book review and recommendation app|MIT|[@brianzhou139](https://github.com/brianzhou139)|
 
-
-
-
-
-
-
-
-
- 
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source-200x33.png?v=103)](https://github.com/ellerbrock/open-source-badge/)  

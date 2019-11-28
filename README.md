@@ -17,7 +17,7 @@ There are two ways to test BookShoot:
  
 ## Promotional Video
 
-We created a promotional video and uploaded it to Youtube. Please click on the image to watch our video:[![Watch our video](https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/VolunyYouTube.jpg)](https://www.youtube.com/watch?v=Zy44ONV4ASs)
+We created a promotional video and uploaded it to Youtube. Please click on the image to watch our video:[![Watch our video](https://raw.githubusercontent.com/Marton-Zeisler/Voluny/master/ReadMe-Images/VolunyYouTube.jpg)](https://youtu.be/ummtm91mOPk)
 
 ## Description
 

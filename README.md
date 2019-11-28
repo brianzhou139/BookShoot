@@ -71,9 +71,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-| Executable  | Team | Description	|Licence |Author|
-| ------------- | ------------- | ------------------------------------- | ------------- | ------------- |
-|[BookShoot](https://drive.google.com/open?id=1s3FiyAtYhkJwC0REF5UBfiFxPpoPedeA)|edufree|book review and recommendation app|MIT|[@brianzhou139](https://github.com/brianzhou139)|
+| Executable  | Repository | Team | Description	|Licence |Author|
+| ------------- | ----------- | ------------- | ------------------------------------- | ------------- | ------------- |
+|[.pk](https://drive.google.com/open?id=1s3FiyAtYhkJwC0REF5UBfiFxPpoPedeA)| [BookShoot](https://github.com/brianzhou139/BookShoot) |edufree|book review and recommendation app|MIT|[@brianzhou139](https://github.com/brianzhou139)|
 
 
 

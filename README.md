@@ -1,4 +1,5 @@
-# BookShoot
+# BookShoot &middot; [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/msal4/royal_news/compare?expand=1)
+
 ## Android App for the 2019 IEEEmadC Mobile Application Development Contest
 
 ![bk_main](https://user-images.githubusercontent.com/39838697/69744633-d78ad300-1140-11ea-881a-a376ccda3a0f.png)

@@ -3,7 +3,7 @@
 
 ![bk_main](https://user-images.githubusercontent.com/39838697/69744633-d78ad300-1140-11ea-881a-a376ccda3a0f.png)
 
-BookShoot is a book review and recommendation app.Users can take a picture of a book of interests in a store/library e.t.c  and then instantly read feedback on it or recommendations for similar book from Goodreads, Amazon, and other similar platforms
+BookShoot is a book review and recommendation app.Users can search or take a picture of a book of interests in a store/library e.t.c  and then instantly read feedback on it or recommendations for similar book from Goodreads, Amazon, and other similar platforms
 
 ## Edufree Team
 It consists of 1 team member : Brian Zhou as the UIUX designer and coder (https://github.com/brianzhou139).I came up with the idea after facing the same problem each of not knowing which book to purchase/read and what do others really say about this book.I started from scratch and used Google books,good reads, new york times and APIS for data collection.
@@ -25,7 +25,7 @@ We created a promotional video and uploaded it to Youtube. Please click on the i
 
 “If you only read the books that everyone else is reading, you can only think what everyone else is thinking.” ― Haruki Murakami
 
-With BookShoot a users can take photos of books that interests them and then instantly read reviews on it, recommendations for similar books and adding reviews. BookShoot makes use of on-device machine learning (google ML Kit ) for the recommendation system, it recommends books and authors as it learns the users preferences through user activity. 
+With BookShoot users can take photos of books that interests them and then instantly read reviews on it, recommendations for similar books and adding reviews. BookShoot makes use of on-device machine learning (google ML Kit ) for the recommendation system, it recommends books and authors as it learns the users preferences through user activity. 
 Users can get book details  by following ways  : 
 
 - taking book photos using the camera

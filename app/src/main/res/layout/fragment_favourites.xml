@@ -243,7 +243,6 @@
                                         <ImageView
                                             android:id="@+id/mm_image_of_book1"
                                             android:background="#fff"
-                                            android:src="@drawable/richard_sample"
                                             android:scaleType="centerCrop"
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"/>
@@ -354,7 +353,6 @@
                                         <ImageView
                                             android:id="@+id/mm_image_of_book2"
                                             android:background="#fff"
-                                            android:src="@drawable/richard_sample"
                                             android:scaleType="centerCrop"
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"/>
@@ -464,7 +462,6 @@
                                         <ImageView
                                             android:id="@+id/mm_image_of_book3"
                                             android:background="#fff"
-                                            android:src="@drawable/richard_sample"
                                             android:scaleType="centerCrop"
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"/>
@@ -650,7 +647,6 @@
                                         <ImageView
                                             android:id="@+id/mm_image_of_book1_2"
                                             android:background="#fff"
-                                            android:src="@drawable/richard_sample"
                                             android:scaleType="centerCrop"
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"/>
@@ -761,7 +757,6 @@
                                         <ImageView
                                             android:id="@+id/mm_image_of_book2_2"
                                             android:background="#fff"
-                                            android:src="@drawable/richard_sample"
                                             android:scaleType="centerCrop"
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"/>
@@ -871,7 +866,6 @@
                                         <ImageView
                                             android:id="@+id/mm_image_of_book3_2"
                                             android:background="#fff"
-                                            android:src="@drawable/richard_sample"
                                             android:scaleType="centerCrop"
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"/>

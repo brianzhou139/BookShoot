@@ -240,7 +240,7 @@ public class BookDetailActivity extends AppCompatActivity {
 
     private String getLikes() {
         int max=10000;
-        int min=100;
+        int min=99;
         Random rand = new Random();
         int randomNum = rand.nextInt((max - min) + 1) + min;
         return String.valueOf(randomNum);

@@ -17,10 +17,7 @@ There are two ways to test BookShoot:
  
 ## Promotional Video
 
-We created a promotional video and uploaded it to Youtube. Please click on the image to watch our video:[![Watch our video]((https://user-images.githubusercontent.com/39838697/69785152-b4e7d100-11b7-11ea-8191-401498b8a024.png)
-)](https://youtu.be/ayEdfnwjPgk)
-
-![bk_vid](https://user-images.githubusercontent.com/39838697/69785152-b4e7d100-11b7-11ea-8191-401498b8a024.png)
+We created a promotional video and uploaded it to Youtube. Please click on the image to watch our video:[![Watch our video](https://user-images.githubusercontent.com/39838697/69785152-b4e7d100-11b7-11ea-8191-401498b8a024.png)](https://youtu.be/ayEdfnwjPgk)
 
 
 ## Description

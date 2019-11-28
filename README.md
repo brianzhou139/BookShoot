@@ -15,6 +15,12 @@ There are two ways to test BookShoot:
 - Download the .apk file using this link: [Download](https://drive.google.com/open?id=1s3FiyAtYhkJwC0REF5UBfiFxPpoPedeA)
 
 - This repository contains an executable .apk file in the apk folder. In order to install and run this file you need to have an Android Device.Just open the folder and click the apk on an android device
+
+## Source Code Review
+* Requirements: [Android Studio](https://developer.android.com/studio/) or [Xcode](https://developer.apple.com/xcode/)<br />
+* Clone this repo/download 
+* Open using android studio and it will handle the rest
+* **Feel free to fork it😊.**<br /><br />
  
 ## Promotional Video
 

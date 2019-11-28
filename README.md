@@ -11,7 +11,7 @@ It consists of 1 team member : Brian Zhou as the UIUX designer and coder (https:
 ## Installation Guidelines
 There are two ways to test BookShoot:
 
-- Download the .apk file using this link: [Download](https://drive.google.com/open?id=1l8Yi_ilW_v-zP7Q2dlWiMGTUhOlx27lC)
+- Download the .apk file using this link: [Download](https://drive.google.com/open?id=1s3FiyAtYhkJwC0REF5UBfiFxPpoPedeA)
 
 - This repository contains an executable .apk file in the apk folder. In order to install and run this file you need to have an Android Device.Just open the folder and click the apk on an android device
  

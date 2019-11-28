@@ -73,7 +73,7 @@ SOFTWARE.
 
 | Executable  | Repository | Team | Description	|Licence |Author|
 | ------------- | ----------- | ------------- | ------------------------------------- | ------------- | ------------- |
-|[.pk](https://drive.google.com/open?id=1s3FiyAtYhkJwC0REF5UBfiFxPpoPedeA)| [BookShoot](https://github.com/brianzhou139/BookShoot) |edufree|book review and recommendation app|MIT|[@brianzhou139](https://github.com/brianzhou139)|
+|[.apk](https://drive.google.com/open?id=1s3FiyAtYhkJwC0REF5UBfiFxPpoPedeA)| [BookShoot](https://github.com/brianzhou139/BookShoot) |edufree|book review and recommendation app|MIT|[@brianzhou139](https://github.com/brianzhou139)|
 
 
 

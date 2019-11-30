@@ -40,11 +40,14 @@ Users can get book details  by following ways  :
 - using photos  that are on the device 
 - searching for the books using title/author/isbn 
 
-## Book Reviews preview                                                 
+## Book Reviews And Related Books preview                                                 
 <img hspace="30" src="https://media.giphy.com/media/WQZ2hd3PzIhY33snPr/giphy.gif" width="300"><img src="https://media.giphy.com/media/SWXMb7YEjUfXGedrIY/giphy.gif" width="300">
 
-## Screenshots
 
+## Book And Author Recommendation preview                                               
+<img hspace="30" src="https://media.giphy.com/media/Vd7Y3iyXkHJwKmEB0Q/giphy.gif" width="300">
+
+## Screenshots
 <img   hspace="20" src="https://user-images.githubusercontent.com/39838697/69763315-18004600-116d-11ea-9413-1a75990a8825.jpg" width="400" height="600"/><img src="https://user-images.githubusercontent.com/39838697/69763351-32d2ba80-116d-11ea-9397-90bbf4831f60.jpg" width="400" height="600"/>
 
 <img   hspace="20" src="https://user-images.githubusercontent.com/39838697/69763367-3f571300-116d-11ea-86f5-8c10c66914f7.jpg" width="400" height="600"/><img src="https://user-images.githubusercontent.com/39838697/69774065-15194b80-1195-11ea-9320-9f64fc97fa01.jpg" width="400" height="600"/>

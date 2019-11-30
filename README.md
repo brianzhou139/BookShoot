@@ -40,8 +40,8 @@ Users can get book details  by following ways  :
 - using photos  that are on the device 
 - searching for the books using title/author/isbn 
 
-####Book Reviews preview                                                 
-<img src="https://media.giphy.com/media/WQZ2hd3PzIhY33snPr/giphy.gif" width="300">
+## Book Reviews preview                                                 
+<img hspace="30" src="https://media.giphy.com/media/WQZ2hd3PzIhY33snPr/giphy.gif" width="300"><img src="https://media.giphy.com/media/SWXMb7YEjUfXGedrIY/giphy.gif" width="300">
 
 ## Screenshots
 

@@ -54,11 +54,8 @@ Users can get book details  by following ways  :
 
 <img   hspace="20" src="https://user-images.githubusercontent.com/39838697/69763569-e340be80-116d-11ea-8948-b960a2df3c82.jpg" width="400" height="600"/><img src="https://user-images.githubusercontent.com/39838697/69763585-f3f13480-116d-11ea-98f2-c300525fde49.jpg" width="400" height="600"/>
 
-<img   hspace="20" src="https://user-images.githubusercontent.com/39838697/69763608-00758d00-116e-11ea-84f4-9885d023d2f7.jpg" width="400" height="600"/>
-
 ## Disclaimer
-BookShoot is a product designed and developed by Brian Zhou.
-All photos used in the app or promotional collaterals are open-source and royalty free from Unsplash.com.
+BookShoot is a product designed and developed by Brian Zhou.All photos used in the app or promotional collaterals are open-source.
 
 ## License
 MIT License

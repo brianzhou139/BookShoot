@@ -1,6 +1,6 @@
 # BookShoot 
 
-## Android App for the 2019 IEEEmadC Mobile Application Development Contest
+## Winning App (Non-Member category) - Mobile Applications Development Contest (IEEMADC)
 
 ![bk_main](https://user-images.githubusercontent.com/39838697/69744633-d78ad300-1140-11ea-881a-a376ccda3a0f.png)
 

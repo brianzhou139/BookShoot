@@ -16,11 +16,6 @@ There are two ways to test BookShoot:
 * Clone this repo/download 
 * Open using android studio and it will handle the rest
 * **Feel free to fork it😊.**<br /><br />
- 
-## Promotional Video
-
-I created a promotional video and uploaded it to Youtube. Please click on the image to watch the video:[![Watch our video](https://user-images.githubusercontent.com/39838697/69785152-b4e7d100-11b7-11ea-8191-401498b8a024.png)](https://youtu.be/JNEpYUVyB6E)
-
 
 ## Description
 

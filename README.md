@@ -1,13 +1,8 @@
 # BookShoot 
 
-## Winning App - Mobile Applications Development Contest (IEEMADC) 2019
-
 ![bk_main](https://user-images.githubusercontent.com/39838697/69744633-d78ad300-1140-11ea-881a-a376ccda3a0f.png)
 
 BookShoot is a book review and recommendation app.Users can search or take a picture of a book of interest in a store/library e.t.c  and then instantly read feedback on it or recommendations for similar books from Goodreads, Amazon, and other similar platforms
-
-## Edufree Team
-It consists of 1 team member : Brian Zhou as the UIUX designer and coder (https://github.com/brianzhou139)
 
 ## Installation Guidelines
 There are two ways to test BookShoot:
